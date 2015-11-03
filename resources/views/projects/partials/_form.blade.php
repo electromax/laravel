@@ -1,11 +1,11 @@
 <div class="form-group">
-    {!! Form::label('name', 'Name:') !!}
-    {!! Form::text('name') !!}
+    {!! Form::label('name', 'Name:', array('class' => 'col-sm-2')) !!}
+    {!! Form::text('name', null, array('class' => 'col-sm-10')) !!}
 </div>
 <div class="form-group">
-    {!! Form::label('slug', 'Slug:') !!}
-    {!! Form::text('slug') !!}
+    {!! Form::label('slug', 'Slug:', array('class' => 'col-sm-2')) !!}
+    {!! Form::text('slug', null, array('class' => 'col-sm-10')) !!}
 </div>
 <div class="form-group">
-    {!! Form::submit($submit_text, ['class'=>'btn primary']) !!}
+    {!! Form::submit($submit_text, ['class'=>'btn btn-primary']) !!}
 </div>
