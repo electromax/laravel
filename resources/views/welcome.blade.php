@@ -39,7 +39,7 @@
 
 				<div class="title">Laravel 5</div>
 
-                       		<div>     {!! link_to_route('projects.index', 'Projects', array(), array('class' => 'btn btn-info')) !!},   </div>
+                       		<div>     {!! link_to_route('projects.index', 'TODO Projects', array(), array('class' => 'btn btn-info')) !!},   </div>
                         </div>
 		</div>
 	</body>

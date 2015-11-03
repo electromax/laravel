@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Laravel</title>
 
-	<link href="content/bootstrap.min.css" rel="stylesheet">
+	<link href="/content/bootstrap.min.css" rel="stylesheet">
 	<style>
 		.flash {padding:10px}
 		.flash p {margin:0}
