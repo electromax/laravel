@@ -1,7 +1,5 @@
 <html>
 	<head>
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
 		<style>
 			body {
 				margin: 0;
@@ -41,8 +39,8 @@
 
 				<div class="title">Laravel 5</div>
 
-                       <div>     {!! link_to_route('projects.index', 'Projects', array(), array('class' => 'btn btn-info')) !!},   </div>
-                                                                                                      	</div>
+                       		<div>     {!! link_to_route('projects.index', 'Projects', array(), array('class' => 'btn btn-info')) !!},   </div>
+                        </div>
 		</div>
 	</body>
 </html>
