@@ -12,6 +12,7 @@
 		.flash p {margin:0}
 		.content {margin:auto 30px}
 		label{display:block}
+		.row { margin-bottom: 10px; }
 	</style>     
 </head>
 <body>                  
