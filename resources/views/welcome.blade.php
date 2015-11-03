@@ -38,9 +38,11 @@
 	<body>
 		<div class="container">
 			<div class="content">
+
 				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
-			</div>
+
+                       <div>     {!! link_to_route('projects', 'Projects', array(), array('class' => 'btn btn-info')) !!},   </div>
+                                                                                                      	</div>
 		</div>
 	</body>
 </html>
